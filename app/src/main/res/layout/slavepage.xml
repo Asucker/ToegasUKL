@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/_100688">
+
+    <Button
+        android:id="@+id/btn_toko"
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/rv_slave"
+        android:layout_marginBottom="3dp"
+        android:text="Store">
+
+    </Button>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_slave"
+        android:layout_width="match_parent"
+        android:layout_height="586dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="0dp"
+        android:background="@drawable/custom_relative"
+        tools:listitem="@layout/activity_ja_ik_ben_een_nederlander" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="293dp"
+        android:layout_height="94dp"
+        app:srcCompat="@drawable/a6___1__1_"
+        android:layout_centerHorizontal="true"/>
+
+    <ImageButton
+        android:id="@+id/buttoncard"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/viewcard"
+        android:layout_below="@id/imageView4"
+        android:layout_toLeftOf="@id/buttongrid"/>
+
+    <ImageButton
+        android:id="@+id/buttongrid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/viewgrid"
+        android:layout_toLeftOf="@id/buttonlist"
+        android:layout_below="@id/imageView4"/>
+
+    <ImageButton
+        android:id="@+id/buttonlist"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/imageView4"
+        android:layout_marginRight="5dp"
+        app:srcCompat="@drawable/viewlist" />
+
+
+
+</RelativeLayout>

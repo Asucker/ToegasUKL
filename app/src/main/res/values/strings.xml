@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">UKL recycle</string>
+    <string name="list">List</string>
+    <string name="grid">Grid</string>
+    <string name="with_cardview">with CardView</string>
+    <string name="description">deskripsi</string>
+    <string name="favorite">Favorite</string>
+    <string name="share">Share</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
