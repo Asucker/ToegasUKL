@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="gender_list">
+
+        <item>Pilih Gender</item>
+        <item>Laki-Laki</item>
+        <item>Perempuan</item>
+        <item>Niggrito</item>
+        <item>Niggreta</item>
+        <item>Bormann</item>
+        <item>Poopenfarten</item>
+
+    </string-array>
+</resources>
