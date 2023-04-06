@@ -56,7 +56,7 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
         }
         when (v.id) {
             R.id.btnRegister -> {
-                val moveToReg = Intent(this@MainActivity, signin::class.java)
+                val moveToReg = Intent(this@MainActivity, MoveActivity::class.java)
                 startActivity(moveToReg)
             }
         }
